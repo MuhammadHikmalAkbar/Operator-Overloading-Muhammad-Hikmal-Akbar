@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/Kuliah/Operator Overloading'
+g++ --std=c++17 -O3 -Wall -Wextra -I. -c -o src/main.o src/main.cpp
+ 
+g++ --std=c++17 -O3 -Wall -Wextra -I. -c -o src/PersegiPanjang.o src/PersegiPanjang.cpp
+g++ --std=c++17 -O3 -Wall -Wextra -I. -o sim src/main.o src/PersegiPanjang.o
+make.exe: Leaving directory 'd:/Kuliah/Operator Overloading'
+ 
